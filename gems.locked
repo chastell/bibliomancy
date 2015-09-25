@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    bibliomancy (0.0.0)
+      sinatra (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,11 +52,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bibliomancy!
   minitest (~> 5.7)
   rack-test (~> 0.6.0)
   rerun (~> 0.10.0)
   rubocop (~> 0.34.0)
-  sinatra (~> 1.4)
 
 BUNDLED WITH
    1.10.6
