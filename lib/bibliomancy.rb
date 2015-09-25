@@ -1,0 +1,1 @@
+Bibliomancy = Module.new
