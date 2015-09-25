@@ -12,8 +12,9 @@ Gem::Specification.new do |gem|
   gem.executables = gem.files.grep(%r{^bin/}).map { |path| File.basename(path) }
   gem.test_files  = gem.files.grep(%r{^test/.*\.rb$})
 
-  gem.add_dependency 'sinatra', '~> 1.4'
-  gem.add_dependency 'virtus',  '~> 1.0'
+  gem.add_dependency 'private_attr', '~> 1.1'
+  gem.add_dependency 'sinatra',      '~> 1.4'
+  gem.add_dependency 'virtus',       '~> 1.0'
 
   gem.add_development_dependency 'bogus',     '~> 0.1.6'
   gem.add_development_dependency 'minitest',  '~> 5.7'
