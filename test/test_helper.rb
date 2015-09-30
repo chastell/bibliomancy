@@ -1,3 +1,4 @@
+ENV['BIBLIOMANCY_REPO'] = 'test/fixtures/quotes.yml'
 ENV['MT_NO_EXPECTATIONS'] = 'true'
 ENV['RACK_ENV'] = 'test'
 require 'minitest/autorun'

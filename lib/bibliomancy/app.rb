@@ -4,7 +4,7 @@ require_relative 'quote_repo'
 
 module Bibliomancy
   class App < Sinatra::Base
-    set quote_repo: QuoteRepo.new(path: Pathname.new('quotes.yml'))
+    set quote_repo: QuoteRepo.new(path: Pathname.new(ENV['BIBLIOMANCY_REPO']))
 
     get '/' do
       quote = settings.quote_repo.random
