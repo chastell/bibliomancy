@@ -20,6 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'minitest',  '~> 5.7'
   gem.add_development_dependency 'rack-test'
   gem.add_development_dependency 'reek'
-  gem.add_development_dependency 'rerun',     '~> 0.11.0'
   gem.add_development_dependency 'rubocop',   '~> 0.34.0'
 end
